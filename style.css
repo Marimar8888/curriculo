@@ -1,0 +1,142 @@
+/*# sourceMappingURL=style.css.map */
+* {
+  box-sizing: border-box; }
+
+html body {
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-align: center; }
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+  padding-top: 30px;
+  width: 100%; }
+
+main {
+  width: 80%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: inline-block; }
+
+header {
+  width: 100%;
+  height: 300px;
+  display: inline-block;
+  padding-left: 470px; }
+
+h1 {
+  color: blue;
+  font-weight: 400;
+  font-size: 30px;
+  float: left;
+  margin-left: 200px;
+  margin-top: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: inline; }
+
+img {
+  float: left;
+  margin-top: 10px;
+  width: 300px;
+  height: 290px;
+  margin-bottom: 10px;
+  display: inline; }
+
+section {
+  width: 100%; }
+
+#kanban {
+  height: 100%;
+  display: inline-block;
+  text-align: left; }
+  #kanban .column {
+    display: inline-block;
+    width: 15%;
+    vertical-align: top;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px; }
+  #kanban .column_1 {
+    display: inline-block;
+    width: 300px;
+    height: 900px;
+    padding-left: 10px;
+    vertical-align: top;
+    background-color: #a1a0a0; }
+  #kanban .column_2 {
+    width: 600px;
+    display: inline-block; }
+
+.line {
+  display: inline;
+  margin: 10px;
+  width: 30%;
+  float: left; }
+
+.line_perfil {
+  display: inline;
+  width: 95%;
+  float: left; }
+
+.line_text {
+  display: inline;
+  margin: 10px;
+  width: 50%;
+  float: left; }
+
+span {
+  padding-top: 5px;
+  display: inline;
+  float: left;
+  margin: 5px; }
+
+.line_4 {
+  color: black;
+  border: 1px solid black;
+  width: 100%; }
+
+.perfil {
+  margin-top: 30px;
+  color: white;
+  text-align: left;
+  padding-left: 10px; }
+
+.tag {
+  margin: 0; }
+
+.front {
+  float: left;
+  padding: 50px;
+  font-size: 50px; }
+
+.back {
+  float: left;
+  padding: 50px;
+  font-size: 50px; }
+
+.device {
+  float: left;
+  padding: 50px;
+  font-size: 50px; }
+
+.punto::before {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid blue;
+  font-style: bold;
+  font-size: 12px;
+  text-align: center; }
+
+.cuerpo {
+  padding-left: 10px; }
+
+/*# sourceMappingURL=style.css.map */
